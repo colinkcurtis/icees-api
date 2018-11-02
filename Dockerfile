@@ -5,6 +5,7 @@ RUN openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -day
 RUN pip install flask flask-restful flask-limiter sqlalchemy psycopg2 scipy gunicorn jsonschema pyyaml tabulate structlog
 RUN pip install git+https://github.com/xu-hao/flasgger
 RUN git clone https://github.com/NCATS-Tangerine/icees-api
+RUN git checkout 2010
 
 WORKDIR /icees-api
 

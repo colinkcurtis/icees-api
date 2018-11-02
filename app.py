@@ -136,7 +136,7 @@ class SERVCohort(Resource):
           - in: path
             name: year
             required: true
-            description: the year 2010|2011
+            description: the year 2010
             type: integer
             default: 2010
         responses:
@@ -199,7 +199,7 @@ class SERVCohortId(Resource):
           - in: path
             name: year
             required: true
-            description: the year 2010|2011
+            description: the year 2010
             type: integer
             default: 2010
           - in: path
@@ -260,7 +260,7 @@ class SERVCohortId(Resource):
           - in: path
             name: year
             required: true
-            description: the year 2010|2011
+            description: the year 2010
             type: integer
             default: 2010
           - in: path
@@ -329,7 +329,7 @@ class SERVFeatureAssociation(Resource):
           - in: path
             name: year
             required: true
-            description: the year 2010|2011
+            description: the year 2010
             type: integer
             default: 2010
           - in: path
@@ -472,7 +472,7 @@ class SERVAssociationsToAllFeatures(Resource):
           - in: path
             name: year
             required: true
-            description: the year 2010|2011
+            description: the year 2010
             type: integer
             default: 2010
           - in: path
@@ -529,7 +529,7 @@ class SERVFeatures(Resource):
           - in: path
             name: year
             required: true
-            description: the year 2010|2011
+            description: the year 2010
             type: integer
             default: 2010
           - in: path
@@ -582,7 +582,7 @@ class SERVCohortDictionary(Resource):
           - in: path
             name: year
             required: true
-            description: the year 2010|2011
+            description: the year 2010
             type: integer
             default: 2010
         responses:
