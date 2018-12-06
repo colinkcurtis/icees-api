@@ -769,5 +769,4 @@ api.add_resource(SERVIdentifiers, "/<string:version>/<string:table>/<string:feat
 api.add_resource(SERVName, "/<string:version>/<string:table>/name/<string:name>")
 
 if __name__ == '__main__':
-
     app.run()
