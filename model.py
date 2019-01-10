@@ -11,6 +11,7 @@ serv_user = os.environ[service_name + "_DBUSER"]
 serv_password = os.environ[service_name + "_DBPASS"]
 serv_host = os.environ[service_name + "_HOST"]
 serv_port = os.environ[service_name + "_PORT"]
+print("loading database " + os.environ[service_name + "_DATABASE"])
 serv_database = json.loads(os.environ[service_name + "_DATABASE"])
 
 
